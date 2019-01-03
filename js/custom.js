@@ -77,7 +77,7 @@
             })
         })
     }), c(".header .box-text h1 span").typed({
-        strings: ["Designer", "freelancer", "Photographer", "Web developer"],
+        strings: ["Deep Learning", "Robotics", "Engineering"],
         loop: !0,
         startDelay: 500,
         backDelay: 2e3
