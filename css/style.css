@@ -1034,6 +1034,7 @@ body.nav-active .nav__list-item:nth-child(6) {
 .portfolio .gallery .item-img {
   position: relative;
   overflow: hidden;
+  color: #007bff;
 }
 
 .portfolio .gallery .item-img a {
@@ -1104,7 +1105,7 @@ body.nav-active .nav__list-item:nth-child(6) {
 
 .portfolio .gallery .item-img .part-img .overlay-img h4:before {
   content: '';
-  background: #fff;
+  background: green;
   bottom: 0;
   position: absolute;
   right: 100%;
@@ -1144,13 +1145,13 @@ body.nav-active .nav__list-item:nth-child(6) {
   transition: left 600ms ease-in-out 0s;
 }
 
-.portfolio .gallery .item-img:hover img {
+.portfolio .gallery  img {
   -webkit-transform: scale(1.04);
   -ms-transform: scale(1.04);
   transform: scale(1.04);
 }
 
-.portfolio .gallery .item-img:hover .overlay-img:after {
+.portfolio .gallery .overlay-img:after {
   top: 0;
   left: 0;
   bottom: 0;
@@ -1164,19 +1165,19 @@ body.nav-active .nav__list-item:nth-child(6) {
   opacity: 1;
 }
 
-.portfolio .gallery .item-img:hover .overlay-img h4 {
+.portfolio .gallery  .overlay-img h4 {
   color: white;
 }
 
-.portfolio .gallery .item-img:hover .overlay-img h4:before {
+.portfolio .gallery  .overlay-img h4:before {
   right: -100%;
 }
 
-.portfolio .gallery .item-img:hover .overlay-img h6 {
+.portfolio .gallery .overlay-img h6 {
   color: white;
 }
 
-.portfolio .gallery .item-img:hover .overlay-img h6:before {
+.portfolio .gallery .overlay-img h6:before {
   left: -100%;
 }
 
@@ -1582,3 +1583,90 @@ body.nav-active .nav__list-item:nth-child(6) {
 .footer .credits a:hover {
   text-decoration: underline;
 }
+
+
+/* ----------------edit by me-------------------------------------- */
+
+.asd1 {
+    
+    color: white;
+    width: inherit;
+    font-weight: 500;
+    padding: 5px;
+    height: 210px;
+    font-size: 18px;
+    font-family: times new roman;
+    line-height: 27px;
+    opacity: 0.85;
+    cursor: context-menu;
+}
+.asd2 {
+     color: white;
+    width: inherit;
+    font-weight: 500;
+    padding: 5px;
+    height: 250px;
+    font-size: 18px;
+    font-family: times new roman;
+    line-height: 27px;
+    opacity: 0.85;
+    cursor: context-menu;
+}
+.work-heading {
+    font-family: times new roman;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 11px;
+    opacity: 0.85;
+    font-size: 20.8px;
+}
+
+.item-img {
+    cursor: context-menu;
+}
+
+
+.part-img {
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    
+}
+
+#one {
+    border: solid 1px gray;
+    background-color: rgba(128,128,128,0.09);
+    width:400px;
+    margin-right: 20px;
+}
+
+#two {
+    border: solid 1px gray;
+    background-color: rgba(128,128,128,0.09);
+    width:400px;
+}
+
+#c-blog {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+#text-aboutme {
+    text-align: justify;
+    font-size: 17.5px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+#about-title {
+    height: 35px;
+}
+
+#aws-logo {
+    font-size: 30px;
+    margin-left: 8px;
+}
+/*---end  --/
