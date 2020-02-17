@@ -47,7 +47,7 @@ body {
   overflow-x: hidden;
   background: rgba(0, 0, 0, 0.92) url(../img/bg-over.png) repeat 0 0;
   color: #f8f8f8;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
@@ -67,12 +67,25 @@ img {
   height: auto;
   vertical-align: middle;
 }
+@font-face {
+  font-family: "Olga";
+  src: url("../fonts/Olga.woff") format("woff");
+  font-style: normal;
+}
+@font-face {font-family: "Geometric Slabserif 703"; 
+  src: url("//db.onlinewebfonts.com/t/bf24a844e65e98e86a1bbe2b4fdf3a78.eot"); 
+  src: url("//db.onlinewebfonts.com/t/bf24a844e65e98e86a1bbe2b4fdf3a78.woff2") format("woff2"), 
+       url("//db.onlinewebfonts.com/t/bf24a844e65e98e86a1bbe2b4fdf3a78.woff") format("woff")
+ }
 
 h1,
-h2,
 h3,
 h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', serif;
+  color: #fff;
+}
+h2{
+  font-family: 'Bebas Neue';
   color: #fff;
 }
 
@@ -564,6 +577,7 @@ body.nav-active .nav__list-item:nth-child(6) {
 .header .box-text {
   position: relative;
   z-index: 3;
+  font-family:Olga;
 }
 
 .header .box-text h4 {
@@ -571,6 +585,7 @@ body.nav-active .nav__list-item:nth-child(6) {
   color: #fff;
   font-weight: 300;
   font-size: 22px;
+  font-family:Olga;
 }
 
 .header .box-text h1 {
@@ -578,10 +593,12 @@ body.nav-active .nav__list-item:nth-child(6) {
   font-size: 42px;
   font-weight: 700;
   letter-spacing: 2px;
+  font-family:Olga;
 }
 
 .header .box-text h1 span {
   color: #D8B069;
+  font-family:Olga;
 }
 
 .header .box-text h3 {
@@ -590,6 +607,7 @@ body.nav-active .nav__list-item:nth-child(6) {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 10px;
+  font-family:Olga;
 }
 
 .header .box-text .scoial-icon {
@@ -1613,7 +1631,7 @@ body.nav-active .nav__list-item:nth-child(6) {
     cursor: context-menu;
 }
 .work-heading {
-    font-family: times new roman;
+    font-family:"Raleway";
     color: white;
     text-align: center;
     padding-top: 16px;
